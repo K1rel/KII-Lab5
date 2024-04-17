@@ -16,7 +16,7 @@ jobs:
       # Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t K1rel/simple-web-server:latest .
+          docker build -t k1rel/simple-web-server:latest .
 
       # Log in to Docker Hub
       - name: Log in to Docker Hub
@@ -26,4 +26,4 @@ jobs:
       # Push the Docker image to Docker Hub
       - name: Push Docker image to Docker Hub
         run: |
-          docker push K1rel/simple-web-server:latest
+          docker push k1rel/simple-web-server:latest
